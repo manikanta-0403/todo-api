@@ -5,7 +5,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/todos")
 // IMPORTANT: This allows requests from our Angular app during local development
-@CrossOrigin(origins = {"http://localhost:4200", "https://6899b4de3f756d8176713fdc--legendary-beignet-0100c1.netlify.app"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://legendary-beignet-0100c1.netlify.app"})
 public class TodoController {
 
     private final TodoRepository todoRepository;
